@@ -1,0 +1,21 @@
+{
+    "name": "joe/my-library",
+    "description": "This my first library, be ready I am comming.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "joel uwineza",
+            "email": "joeluwineza35@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.4"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Joescreencast\\ResponseClass\\": "src/"
+        }
+    }
+}
